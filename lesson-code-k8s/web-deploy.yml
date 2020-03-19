@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-web
   labels:
-    customer: acg
+    customer: Mayasoft
 spec:
   selector:
     matchLabels:
@@ -17,7 +17,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nigelpoulton/acg-web:0.1
+      - image: emnalmdr/ea:latest
         name: web-ctr
         ports:
         - containerPort: 8080
