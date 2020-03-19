@@ -1,6 +1,6 @@
 FROM centos:centos7
 
-LABEL MAINTAINER=nigelpoulton@hotmail.com
+LABEL MAINTAINER=emin.alemdar@mayasoft.com.tr
 
 # Install Node etc...
 RUN yum -y update; yum clean all
